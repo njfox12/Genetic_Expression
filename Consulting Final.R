@@ -183,12 +183,3 @@ for(i in 1:length(explist)){
   
   R2.model1[i]<-R2.f
 }
-
-res.r2<-results$R2[1:236]
-df<-data.frame(R2=R2.model1,prev=res.r2)
-df1<-na.omit(df)
-df1$prev<-as.character(df1$prev)
-df1$prev<-as.numeric(df1$prev)
-df2<-df1[df1$R2>df1$prev,]
-dim(df2)[1]/dim(df1)[1]
-save(R2.01,A.R2.01,R2.11,A.R2.11,R2.model1,res.r2,file="C:/Users/Nick/Documents/PresentationData1.RData")
