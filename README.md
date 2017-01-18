@@ -1,5 +1,6 @@
 # Genetic_Expression
 
+# Background
 This project was a consulting project for my consulting course in my Master's study. This was a project in which I worked with two other individuals from my class to provide statistical consultation for a professor at Loyola University Chicago. We worked with Dr. Heather Wheeler, who works in the computer science department and runs a computational biology lab at the university. We were continuing a previous study she had done, where an elastic net was used to predict gene expression. The paper being referenced was "Survey of Heritability and Sparse Architecture of Gene Expression Traits Across Human Tissues" by Heather Wheeler et. al.
 
 The data for this project was from a previous study, "Patterns of Cis Regulatory Variation in Diverse Human Populations" by Barbara Stranger et.al. Specifically, the data included SNP (single-nucleotide polymorphism) position and frequency with the corresponding level of expression. In this project, we focused on 107 individuals using chromosome 22, which has a total of 498 genes to be analyzed. 
